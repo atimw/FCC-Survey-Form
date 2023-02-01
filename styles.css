@@ -1,0 +1,74 @@
+body {
+    background-color: #000;
+    color: #3F9E51;
+}
+
+#title {
+    font-family: 'Courier New', ans-serif;
+    font-weight: 100;
+    text-align: center;
+    width: 80%;
+    margin: 20px auto 40px auto;
+    font-size: 2rem;
+}
+
+#description {
+    font-family: Arial, sans-serif;
+    font-weight: 100;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto 40px auto;
+    font-size: 1.5rem;
+}
+
+#survey-form {
+    font-family: Arial, sans-serif;
+    font-weight: 100;
+    width: 80%;
+    margin: 0 auto 20px;
+}
+
+#survey-form label {
+    display: inline-block;
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+}
+
+#name, #email, #number, #dropdown {
+    width: 100%;
+    height: 2.3rem;
+    border: none;
+    border-radius: 0.25rem;
+    margin: 0 0 1.25rem 0;
+}
+
+::placeholder {
+    color: #000;
+    opacity: .30;
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 1.25rem 0;
+    border: none;
+}
+
+textarea {
+    width: 100%;
+    height: 120px;
+    max-width: 600px;
+    margin: 0 0 1.25rem 0;
+}
+
+#submit {
+    display: block;
+    width: 100%;
+    padding: 0.75rem;
+    background: #000;
+    border-radius: 2px;
+    cursor: pointer;
+    color: #3F9E51;
+    border: 1px solid #3F9E51;
+    margin: 1.25rem auto 1.25rem auto;
+}

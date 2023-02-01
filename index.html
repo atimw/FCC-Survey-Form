@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+<meta charset="uft-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<h1 id="title">We'd love to hear from you!</h1>
+
+<p id="description">If you would like to contact us, please fill out the form below.</p>
+
+<form id="survey-form">
+  <label id="name-label">Name</label>
+  <input id="name" type="text" required placeholder="Link of Hyrule">
+
+  <label id="email-label">Email</label>
+  <input id="email" type="email" required placeholder="LinkHyrule@example.com">
+
+  <label id="number-label">Age</label>
+  <input id="number" type="number" min="13" max="120" placeholder="17">
+
+<label for='dropdown'>What's your favorite hobby?</label>
+<select id="dropdown">
+  <option value="fishing">Fishing!</option>
+  <option value="side quests">Side Quests!</option>
+  <option value="sleeping">Sleeping!</option>
+</select>
+
+<fieldset>
+  <p>Where are you located?</p>
+  <label for="hyrule">
+    <input type="radio" id="hyrule" name="location" value="hyrule">
+    Hyrule
+  </label>
+  
+  <label for="kakarikovillage">
+    <input type="radio" id="kakarikovillage" name="location" value="kakariko village">
+    Kakariko Village
+    </label>
+
+  <label for="deathmountain">
+    <input type="radio" id="deathmountain" name="location" value="death mountain">
+    Death Mountain
+    </label>
+</fieldset>
+
+<fieldset>
+  <p>Which items have you obtained?</p>
+  <label for="heartcontainer">
+    <input type="checkbox" id="heartcontainer" name="location" value="heart container">
+    Heart Container
+    </label>
+  
+  <label for="hookshot">
+    <input type="checkbox" id="hookshot" name="location" value="hookshot">
+    Hookshot
+    </label>
+
+  <label for="boomerang">
+    <input type="checkbox" id="boomerang" name="location" value="boomerang">
+    Boomerang
+    </label>
+</fieldset>
+
+<p>Any comments or suggestions?</p>
+<textarea id="story" name="story"></textarea>
+
+<button id="submit" type="submit" value="Submit">Submit</button>
+
+
+</form>
+
+</body>
+</html>
